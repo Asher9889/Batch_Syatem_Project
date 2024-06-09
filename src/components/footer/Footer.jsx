@@ -61,8 +61,8 @@ const Footer = ()=>{
                         <p className="text-md">stay Up To Date</p>
                         <div className="flex   flex-row mt-6 items-center">
                             
-                            <input type="text" placeholder="Your Email" />
-                            <button className="text-md rounded-sm text-white bg-black ">Subscribe</button>
+                            <input className="outline-none border-0" type="text" placeholder="Your Email" />
+                            <button className="text-md rounded-md px-4 py-2 text-white bg-black ">Subscribe</button>
                         </div>
 
                     </div>

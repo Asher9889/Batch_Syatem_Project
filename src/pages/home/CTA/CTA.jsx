@@ -3,10 +3,12 @@ import { ContentWrapper } from "../../../components";
 import iphoneGrp from "../../../assets/iPhoneGrp.png"
 import apple from "../../../assets/apple.png";
 import frame from "../../../assets/Frame.png";
+import ellipse1 from "../../../assets/Ellipse 1.png"
+import ellipse2 from "../../../assets/Ellipse 2.png"
 
 const CTA = ()=>{
     return (
-        <div className="mt-4 sm:mt-28 pb-6">
+        <div className="relative mt-12 sm:mt-28 pb-6">
             <ContentWrapper>
                 <div className="relative">
                     <img className="" src={frame} alt="" />
@@ -21,6 +23,8 @@ const CTA = ()=>{
                             <img className="w-4" src={apple} alt="" />
                         </span>
                     </div>
+                    <img className="absolute -z-10  -top-[70px] -left-32 md:-top-[140px] md:-left-[220px]"  src={ellipse2} alt="" />
+                    <img className="absolute -z-10  -top-[110px] -left-32 md:-top-[170px] md:-left-[190px]" src={ellipse1} alt="" />
                 </div>
             </ContentWrapper>
         </div>

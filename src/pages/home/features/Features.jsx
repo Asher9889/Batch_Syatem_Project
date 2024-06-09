@@ -2,6 +2,7 @@ import React from "react";
 import ring from "../../../assets/ring.png";
 import { ContentWrapper, Info } from "../../../components";
 import iphone1 from "../../../assets/iphone1.png";
+import iphone2 from "../../../assets/iphone2.png";
 import ellipse1 from "../../../assets/Ellipse 1.png";
 import ellipse2 from "../../../assets/Ellipse 2.png";
 import star5 from "../../../assets/star5.png";
@@ -87,7 +88,7 @@ const Features = () => {
                     <img className="ssm:w-[700px]" src={ring} alt="" />
                     <img
                         className="absolute top-6  left-8 ssm:top-8 ssm:left-[55px] ssm:w-[280px] sm:w-80  sm:left-[20px] sm:top-6 md:w-96 lg:left-[60px] rotate-[15deg] w-56"
-                        src={iphone1}
+                        src={iphone2}
                         alt=""
                     />
                 </div>
