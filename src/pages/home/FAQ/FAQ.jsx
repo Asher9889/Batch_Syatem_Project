@@ -11,16 +11,16 @@ const FAQ = ()=>{
                     <div className="flex flex-col sm:flex-row gap-2 mt-4">
 
                         <div className="flex  flex-1 flex-col gap-3 ">
-                            <FAQTab text="text-white" bg='#FF5555' desc="text-white" />
-                            <FAQTab text="text-black" bg="bg-white" desc="text-zinc-500" />
-                            <FAQTab text="text-white" bg="#FF5555" desc="text-white" />
+                            <FAQTab text="text-white" bg='bg-[var(--font-pink)]' desc="text-white" />
+                            <FAQTab text="text-black" bg="white" desc="text-zinc-500" />
+                            <FAQTab text="text-white" bg="bg-[var(--font-pink)]" desc="text-white" />
                             
                         </div>
 
                         <div className="flex flex-1 flex-col gap-3 ">
-                            <FAQTab text="text-black" bg="bg-white" desc="text-zinc-500" />
-                            <FAQTab text="text-white" bg="#FF5555" desc="text-white" />
-                            <FAQTab text="text-black" bg="bg-white" desc="text-zinc-500" />
+                            <FAQTab text="text-black" bg="white" desc="text-zinc-500" />
+                            <FAQTab text="text-white" bg="bg-[var(--font-pink)]" desc="text-white" />
+                            <FAQTab text="text-black" bg="white" desc="text-zinc-500" />
                             
                         </div>
                     
