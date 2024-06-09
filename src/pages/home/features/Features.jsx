@@ -106,20 +106,19 @@ const Features = () => {
                 </div>
 
                 <div className="flex-1 -mt-36 sm:-mt-0 ">
-                <div className="flex pt-40 md:pt-32 flex-col font-clash gap-2">
+                    <div className="flex pt-40 md:pt-32 flex-col font-clash gap-2">
                     
                     
                     
-                    <div className="flex flex-row items-center gap-2">
-                    <img src={star5} alt="" />
-                    <h4 className="font-bold text-md">Fully Customizable</h4>
-                    </div>
-                    <p className="text-zinc-400 text-md">
-                    Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.</p>
-                    
+                        <div className="flex flex-row items-center gap-2">
+                            <img src={star5} alt="" />
+                            <h4 className="font-bold text-md">Fully Customizable</h4>
+                        </div>
+                        <p className="text-zinc-400 text-md">Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.</p>
+                            
                     
 
-                </div>
+                    </div>
                 </div>
             
             </div>

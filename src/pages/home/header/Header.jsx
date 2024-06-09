@@ -86,9 +86,11 @@ const Header = ()=>{
             <img className="absolute h-40 top-2 left-16 sm:h-60 sm:top-8 sm:left-6 lg:h-[400px] lg:-top-12 lg:left-28  xl:left-52" src={ellipse1} alt="" />
             <img className="absolute w-12 top-16 right-2 sm:top-20 sm:right-8  lg:top-10 lg:right-10" src={star1} alt="" />
             <img className="absolute w-12 top-80 left-14 sm:top-96  lg:top-16 lg:left-10" src={star3} alt="" />
-            <img className="absolute  top-0 opacity-10 " src={blur} alt="" />
             <img className="absolute w-[800px] sm:w-[500px] top-[700px] sm:top-[200px] sm:left-80  lg:top-72 lg:left-[60%]" src={ellipse1} alt="" />
             <img className="absolute w-12 -bottom-[380px] left-16 sm:top-[480px] sm:left-[480px]    lg:top-[70%] lg:left-64" src={star3} alt="" />
+            
+            <img className="w-full absolute h-[5300px] md:h-[4000px] top-0 opacity-10 " src={blur} alt="" />
+            
     </div>
     )
 }

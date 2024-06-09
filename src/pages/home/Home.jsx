@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Features, Testimonials} from "./index.js"
+import { Header, Features, Testimonials, FAQ, CTA } from "./index.js"
 
 const Home = ()=>{
     return (
@@ -7,6 +7,8 @@ const Home = ()=>{
             <Header />
             <Features />
             <Testimonials />
+            <FAQ />
+            <CTA />
             
         </div>
     )
