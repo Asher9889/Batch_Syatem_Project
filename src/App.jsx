@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <div className='h-fit'>
+    <div className='w-full'>
       <Home />
       <Footer />
     </div>

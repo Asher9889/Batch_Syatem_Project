@@ -89,7 +89,7 @@ const Header = ()=>{
             <img className="absolute w-[800px] sm:w-[500px] top-[700px] sm:top-[200px] sm:left-80  lg:top-72 lg:left-[60%]" src={ellipse1} alt="" />
             <img className="absolute w-12 -bottom-[380px] left-16 sm:top-[480px] sm:left-[480px]    lg:top-[70%] lg:left-64" src={star3} alt="" />
             
-            <img className="w-full absolute h-[5300px] md:h-[4000px] top-0 opacity-10 " src={blur} alt="" />
+            <img className="w-full absolute h-[5300px] md:h-[4000px] top-0 opacity-[.04] " src={blur} alt="" />
             
     </div>
     )

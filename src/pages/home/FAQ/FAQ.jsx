@@ -1,7 +1,7 @@
 import React from "react";
 import { ContentWrapper, FAQTab } from "../../../components";
 
-const FAQ = ()=>{
+const FAQ = ()=>{ 
     return (
         <div className="mt-6 sm:mt-20">
             <ContentWrapper>

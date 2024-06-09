@@ -17,8 +17,8 @@ const Testimonials = ()=>{
                     <div className="relative flex flex-col sm:flex-row" >
 
                         <div className=" z-10 flex-1">
-                            <img className="relative left-0 top-8 w-56 top-0 ssm:left-10 ssm:top-20 " src={ellipse1} alt="" />
-                            <img className="relative left-2 -top-20 w-56 top-0 ssm:-top-12" src={ellipse2} alt="" />
+                            <img className="relative left-0 top-8 w-56 top-0 ssm:left-10 ssm:top-20 lg:top-28 lg:left-20 " src={ellipse1} alt="" />
+                            <img className="relative left-2 -top-20 w-56  ssm:-top-12 lg:-top-4 lg:left-10" src={ellipse2} alt="" />
                             <img className="absolute top-0 w-[400px] lg:w-[500px]" src={group} alt="" />
                             
                             
