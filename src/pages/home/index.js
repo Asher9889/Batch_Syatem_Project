@@ -1,5 +1,5 @@
 import Header from "./header/Header";
 import Features from "./features/Features";
-// import Advantages from "./advantages/Advantages";
+import Testimonials from "./testimonials/Testimonials";
 
-export { Header, Features};
+export { Header, Features, Testimonials };
