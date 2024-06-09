@@ -18,16 +18,16 @@ const Features = () => {
         <ContentWrapper>
             <div className="relative flex flex-col sm:flex-row">
 
-                <div className="bg-green-300 sm:mt-4 relative flex-1 ">
+                <div className="sm:mt-4 relative flex-1 ">
                     <img className="ssm:w-[700px]" src={ring} alt="" />
                     <img
                         className="absolute top-6  left-8 ssm:top-8 ssm:left-[55px] ssm:w-[280px] sm:w-80  sm:left-[20px] sm:top-6 md:w-96 lg:left-[60px] rotate-[15deg] w-56"
                         src={iphone1}
-                        alt=""
+                        
                     />
                 </div>
 
-                <div className="flex-1 bg-blue-300 -mt-16 sm:mt-0 ">
+                <div className="flex-1  -mt-16 sm:mt-0 ">
                 <div className="flex pt-20 flex-col font-clash gap-2">
                     <p className="text-[--font-pink] text-md sm:text-sm">FEATURES</p>
                     <h1 className="text-xl font-bold -mt-2">Uifry Premium</h1>
