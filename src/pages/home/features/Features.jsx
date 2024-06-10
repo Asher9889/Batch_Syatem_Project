@@ -30,21 +30,21 @@ const Features = () => {
 
                 <div className="flex-1  -mt-16 sm:mt-0 ">
                 <div className="flex pt-20 flex-col font-clash gap-2">
-                    <p className="text-[--font-pink] text-md sm:text-sm">FEATURES</p>
+                    <p className="text-[--font-pink] text-md sm:text-sm ">FEATURES</p>
                     <h1 className="text-xl font-bold -mt-2">Uifry Premium</h1>
                     
                     <div className="flex flex-row items-center gap-2">
                     <img src={star5} alt="" />
-                    <h4 className="font-bold text-md sm:text-sm">Budgeting Intervals</h4>
+                    <h4 className="font-bold text-md sm:text-sm hover:scale-105">Budgeting Intervals</h4>
                     </div>
-                    <p className="text-zinc-400 text-md    sm:text-sm sm:leading-[15px]">
+                    <p className="text-zinc-400 text-md    sm:text-sm sm:leading-[15px] ">
                     Cum et convallis risus placerat aliquam, nunc. Scelerisque
                     aliquet faucibus tincidunt eu adipiscing sociis arcu lorem
                     </p>
                     
                     <div className="flex flex-row items-center gap-2">
                     <img src={cube} alt="" />
-                    <h4 className="font-bold sm:text-sm">Budgeting Intervals</h4>
+                    <h4 className="font-bold sm:text-sm hover:scale-105">Budgeting Intervals</h4>
                     </div>
                     <p className="text-zinc-400 text-md sm:text-sm sm:leading-[15px]">
                     Cum et convallis risus placerat aliquam, nunc. Scelerisque
@@ -53,7 +53,7 @@ const Features = () => {
                     
                     <div className="flex flex-row items-center gap-2">
                     <img src={cube1} alt="" />
-                    <h4 className="font-bold sm:text-sm">Budgeting Intervals</h4>
+                    <h4 className="font-bold sm:text-sm hover:scale-105">Budgeting Intervals</h4>
                     </div>
                     <p className="text-zinc-400 text-md sm:text-sm sm:leading-[15px]">
                     Cum et convallis risus placerat aliquam, nunc. Scelerisque

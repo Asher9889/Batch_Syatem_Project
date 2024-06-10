@@ -19,7 +19,7 @@ const Footer = ()=>{
 
                             <span className="flex gap-2 flex-row items-center">
                                 <img src={msg} alt="" />
-                                <p className="text-sm">Help@Frybix.com</p>
+                                <p className="text-sm cursor-pointer">Help@Frybix.com</p>
                             </span>
                             
                             <span className="flex gap-2 flex-row items-center">
@@ -30,7 +30,7 @@ const Footer = ()=>{
                         </div>
 
                         <div className=" flex flex-col items-start gap-4">
-                            <p className="text-2xl">Links</p>
+                            <p className="text-2xl hover:animate-pulse ">Links</p>
                             <button className="text-md">Home</button>
                             <button className="text-md">About Us</button>
                             <button className="text-md">Bookings</button>

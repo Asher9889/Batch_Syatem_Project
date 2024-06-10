@@ -3,7 +3,7 @@ import { ContentWrapper, FAQTab } from "../../../components";
 
 const FAQ = ()=>{ 
     return (
-        <div className="mt-6 sm:mt-20">
+        <div className="w-full mt-6 sm:mt-20">
             <ContentWrapper>
                 <div className="flex flex-col font-clash">
                     <p className="text-sm text-[var(--font-pink)] ">FAQ</p>
